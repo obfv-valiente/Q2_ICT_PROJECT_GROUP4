@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>OB Montessori Center</title>
+  <title>Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
   <style>
     * {
@@ -14,10 +16,11 @@
     }
 
     body {
-      background-color: #faf7f2;
+      background-color: rgb(250, 247, 242);
       color: #222;
     }
 
+    
     header {
       background: #fff;
       padding: 20px 60px;
@@ -27,9 +30,8 @@
       box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
 
-    header h1 {
-      font-size: 22px;
-      font-weight: bold;
+    header img {
+      height: 55px;
     }
 
     nav a {
@@ -39,136 +41,160 @@
       font-weight: 500;
     }
 
-    .hero {
-      display: flex;
-      align-items: center;
-      padding: 80px 60px;
-      gap: 50px;
+    nav a.active {
+      color: #c0392b;
+      font-weight: bold;
     }
 
-    .hero-text {
-      flex: 1;
-    }
-
-    .hero-text h2 {
-      font-size: 42px;
-      margin-bottom: 20px;
-    }
-
-    .hero-text p {
-      font-size: 18px;
-      margin-bottom: 30px;
-      color: #555;
-      line-height: 1.6;
-    }
-
-    .buttons button {
-      padding: 14px 26px;
-      border: none;
-      border-radius: 6px;
-      font-size: 16px;
-      cursor: pointer;
-      margin-right: 15px;
-    }
-
-    .apply {
-      background-color: #c0392b;
-      color: #fff;
-    }
-
-
-    .hero-image {
-      flex: 1;
-    }
-
-    .hero-image img {
-      width: 100%;
-      border-radius: 20px;
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
-      padding: 40px 60px;
-    }
-
-    .card {
-      background: #fff;
-      padding: 30px;
-      border-radius: 14px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    }
-
-    .card h3 {
-      margin-bottom: 10px;
-      font-size: 20px;
-    }
-
-    .card p {
-      color: #555;
-    }
-
-    footer {
+     footer {
       text-align: center;
       padding: 30px;
       background: #fff;
       margin-top: 40px;
       color: #777;
     }
+
+    
+    .contact-box {
+      background: rgba(0,0,0,0.7);
+      color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      max-width: 1100px;
+      margin: 2rem auto;
+    }
+
+    .info-card {
+      background: #cd1111;
+      color: white;
+      border-radius: 10px;
+      text-align: center;
+      height: 100%;
+      padding: 20px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border-radius: 10px;
+      border: none;
+    }
+
+    .intro {
+      max-width: 1100px;
+      margin: 40px auto;
+      line-height: 1.7;
+    
+    }
+
+    header h1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #222;
+}
+
+.white-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  max-width: 1100px;
+  margin: 40px auto;
+}
   </style>
 </head>
 
 <body>
 
-  <header>
-    <h1>OB Montessori Center</h1>
-    <nav>
-      <a href="#">Programs</a>
-      <a href="#">Admissions</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
+<header>
+ <h1>OB Montessori Center</h1>
+  <nav>
+     <a href="Enroll.html">Home</a>
+      <a href="#">Courses Offer</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Enrollment</a>
+  </nav>
+</header>
 
-  <section class="hero">
-    <div class="hero-text">
-      <h2>Inspiring Independent Learners</h2>
-      <p>
-        OB Montessori Center provides a nurturing environment where children
-        grow academically, socially, and emotionally through the Montessori method.
-      </p>
-      <div class="buttons">
-        <button class="apply">Apply Now</button>
-        
+<div class="white-box">
+  <p><strong>Welcome to O.B. Montessori Center!</strong></p>
+  <p>Thank you for considering our school for your child's education. Our application process is now online for your convenience.</p>
+  <p>Fill out the online application form, review requirements, upload documents, and submit your application.</p>
+  <p>You will receive an SMS confirmation with your application ID for tracking.</p>
+  <p>We look forward to welcoming you to the O.B. Montessori Center community!</p>
+
+  <p>For extra information please <a href="Enroll3.html">click here</a>.</p>
+</div>
+
+<div class="contact-box">
+
+  <h2 class="text-center mb-4">Contact OB Montessori Center</h2>
+
+  <div class="row g-3 mb-4">
+    <div class="col-md-4">
+      <div class="info-card">
+        <h5>Address</h5>
+        <p>Philippines</p>
       </div>
     </div>
 
-    <div class="hero-image">
-      <img src="" alt="Students learning">
-    </div>
-  </section>
-
-  <section class="cards">
-    <div class="card">
-      <h3>Montessori Curriculum</h3>
-      <p>Child-centered learning designed to build confidence and curiosity.</p>
+    <div class="col-md-4">
+      <div class="info-card">
+        <h5>Email</h5>
+        <p>obmc@email.com</p>
+      </div>
     </div>
 
-    <div class="card">
-      <h3>Qualified Teachers</h3>
-      <p>Experienced Montessori-trained educators who guide each child.</p>
+    <div class="col-md-4">
+      <div class="info-card">
+        <h5>Phone</h5>
+        <p>0912 345 6789</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row g-4">
+
+    <div class="col-md-6">
+  
+      <h4>Enrollment</h4>
+
+      <form>
+        <div class="mb-2">
+          <label class="form-label">Full Name</label>
+          <input type="text" class="form-control" placeholder="John Doe">
+        </div>
+
+        <div class="mb-2">
+          <label class="form-label">Email(parent and guardian)</label>
+          <input type="email" class="form-control" placeholder="email@example.com">
+        </div>
+
+        <div class="mb-2">
+          <label class="form-label">Grade Level</label>
+          <input type="text" class="form-control" placeholder="Grade...">
+        </div>
+
+        <br><br>
+
+        <button class="btn btn-primary w-100">Enroll</button>
+      </form>
     </div>
 
-    <div class="card">
-      <h3>Safe Environment</h3>
-      <p>A warm, secure space where children feel respected and valued.</p>
+    <div class="col-md-6">
+      <h4>Our Location</h4>
+      <iframe src="https://www.google.com/maps/@14.7581676,121.044992,15z"></iframe>
     </div>
-  </section>
+
+  </div>
+</div>
+
 
   <footer>
     © 2025 OB Montessori Center. All rights reserved.
   </footer>
 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
